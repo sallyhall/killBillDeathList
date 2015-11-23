@@ -1,0 +1,18 @@
+<div class="container">
+  <header>
+    <h1>Death List Five</h1>
+    <a href="#/addTarget" id="addTarget"><img  src="http://www.clipartbest.com/cliparts/dc8/LXG/dc8LXGkce.gif"  alt="Add a Target" />Add a Target</a>
+  </header>
+  <main>
+    <ol class="targetList">
+      <li ng-repeat="target in targets" class = "target" id = {{target._id}}>
+        <h2>{{target.name}}</h2><span ng-click="deleteTarget(target)" class="delete">X</span>
+        <p>{{target.pseudonym}}</p>
+      </li>
+    </ol>
+
+  </main>
+  <footer>
+
+  </footer>
+</div>

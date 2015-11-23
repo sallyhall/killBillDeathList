@@ -1,0 +1,23 @@
+{
+  "name": "killbill",
+  "authors": [
+    "Sally Kingston <sally.a.kingston@gmail.com>"
+  ],
+  "description": "The Bride's Kill List",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8",
+    "underscore": "~1.8.3"
+  }
+}
