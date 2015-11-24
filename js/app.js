@@ -8,16 +8,16 @@
   .config(function($routeProvider){
     $routeProvider
         .when('/', {
-          templateUrl: '/views/targets/list.html',
+          templateUrl: '/myViews/targets/list.html',
           controller: 'TargetsController'
 
         })
         .when('/addTarget', {
-          templateUrl: '/views/targets/create.html',
+          templateUrl: '/myViews/targets/create.html',
           controller: 'TargetsController'
         })
         .when('/404', {
-          templateUrl: '/views/404.html'
+          templateUrl: '/myViews/404.html'
         })
         .otherwise({ redirectTo: '/404'})
 
